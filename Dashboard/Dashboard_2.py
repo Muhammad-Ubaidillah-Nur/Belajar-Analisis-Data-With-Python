@@ -26,8 +26,8 @@ def analisis_berdasarkan_cuaca(df):  # Fungsi untuk menganalisis data berdasarka
     return cuaca_analisis
 
 #--- Memuat data dari file CSV
-day_df = pd.read_csv(r"Dashboard\day_data.csv")
-hour_df = pd.read_csv(r"Dashboard\hour_data.csv")
+day_df = pd.read_csv(r"Dashboard/day_data.csv")
+hour_df = pd.read_csv(r"Dashboard/hour_data.csv")
 
 #--- Menggunakan fungsi untuk menghasilkan analisis
 favorit_season = analisis_rental_musim(day_df)
